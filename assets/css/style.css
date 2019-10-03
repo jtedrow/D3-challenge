@@ -14,36 +14,50 @@ body {
   padding-bottom: 80px;
 }
 
-circle {
-  fill: #8e6c8a;
-  opacity: 0.9;
-  stroke: white
+.tooltip {
+  position: absolute;
+  width: 165px;
+  height: 65px;
+  padding: 8.3px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #6bbba1;
+  border-radius: 100px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #e5e2e0;
 }
 
-svg {
-  font: times;
+circle {
+  fill: #8e6c8a;
+  opacity: 0.95;
+  stroke: #e5e2e0;
+  stroke-width: 2px;
+
 }
 
 .tick text {
   font-size: 1.2em;
-  fill: #1e1f26;
+  fill:#635f5d;
   padding-top: 2em;
+  font-weight: bold;
+
 }
 
 .tick line {
   stroke: #ffffff;
   opacity: 0.5;
+  stroke-width: 2px;
 
-}
-.axis-label {
-  font-size: 1.5em;
-  fill: #8e8883;
-  font-weight: bold;
 }
 
 .title {
   font-size: 3em;
   fill: #635f5d;
+}
+
+
    
 
 #footer {
